@@ -484,7 +484,7 @@ const Home = ({ navigate, openDonate }) => {
   <div className="fu3" style={{ maxWidth: 580, marginBottom: 44, textAlign: "center" }}>
   <BodyText style={{ textAlign: "center" }}>
     Beyond Disintegration funds pioneering research into unexplained catastrophic
-    developmental regression in children — one of medicine's most devastating
+    developmental regression in children : one of medicine's most devastating
     and underrecognised crises. We exist because these children deserve answers.
   </BodyText>
 </div>
@@ -656,7 +656,7 @@ const Home = ({ navigate, openDonate }) => {
 
           <div className="col-3" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 20 }}>
             {[
-              { tag:"Research", date:"April 2025", title:"Biomarker Study Opens Early Detection Pathway", body:"A multi-centre study identifies neuroimmune markers with high specificity for autoimmune aetiology in childhood regression — a potential breakthrough in early diagnosis." },
+              { tag:"Research", date:"April 2025", title:"Biomarker Study Opens Early Detection Pathway", body:"A multi-centre study identifies neuroimmune markers with high specificity for autoimmune aetiology in childhood regression , a potential breakthrough in early diagnosis." },
               { tag:"Publication", date:"March 2025", title:"The Lancet Calls for Systematic Classification", body:"Landmark article proposing a unified diagnostic framework, drawing on 847 paediatric cases across 12 countries, drawing international medical attention." },
               { tag:"Charity", date:"Feb 2025", title:"Beyond Disintegration Officially Launches", body:"Our founding marks the beginning of a dedicated advocacy and research organisation. Our mission: no child should face this crisis without answers." },
             ].map((c, i) => (
@@ -733,7 +733,7 @@ const About = ({ navigate, openDonate }) => (
       vol="Est. 2025 · England & Wales"
       eyebrow="About Us"
       title={<>Our Mission, Vision <em style={{ fontStyle:"italic",color:T.amber }}>&amp; Purpose</em></>}
-      subtitle="We exist because a devastating condition demands urgent answers — and affected families deserve more than silence."
+      subtitle="We exist because a devastating condition demands urgent answers and affected families deserve more than silence."
     />
     <section style={{ padding: "88px 0" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 28px" }}>
@@ -743,10 +743,10 @@ const About = ({ navigate, openDonate }) => (
             <Eyebrow>Our Mission</Eyebrow>
             <Headline size="md">Why we <em style={{ fontStyle:"italic",color:T.red }}>exist</em></Headline>
             <BodyText style={{ marginBottom: 16 }}>
-              Beyond Disintegration was founded by families who have lived through the unimaginable — watching a child who was thriving suddenly and catastrophically regress. We built this organisation because no family should face this crisis alone.
+              Beyond Disintegration was founded by families who have lived through the unimaginable , watching a child who was thriving suddenly and catastrophically regress. We built this organisation because no family should face this crisis alone.
             </BodyText>
             <BodyText style={{ marginBottom: 28 }}>
-              Our mission: fund rigorous scientific research into causes, mechanisms, and potential treatments for unexplained catastrophic developmental regression in children — while building the support infrastructure that affected families so desperately need.
+              Our mission: fund rigorous scientific research into causes, mechanisms, and potential treatments for unexplained catastrophic developmental regression in children , while building the support infrastructure that affected families so desperately need.
             </BodyText>
             {/* Registration notice */}
             <div style={{ background: T.amberPale, border: `1.5px solid ${T.amber}`, borderRadius: 6, padding: "18px 20px" }}>
@@ -761,7 +761,7 @@ const About = ({ navigate, openDonate }) => (
             <Eyebrow color={T.green}>The Condition</Eyebrow>
             <Headline size="md">Understanding the <em style={{ fontStyle:"italic",color:T.green }}>crisis</em></Headline>
             <BodyText style={{ marginBottom: 14 }}>
-              Unexplained catastrophic developmental regression — encompassing Childhood Disintegrative Disorder (CDD), acquired epileptic aphasia, FIRES, and related conditions — describes a group of devastating syndromes in which previously typically-developing children experience rapid, severe loss of acquired skills.
+              Unexplained catastrophic developmental regression , encompassing Childhood Disintegrative Disorder (CDD), acquired epileptic aphasia, FIRES, and related conditions , describes a group of devastating syndromes in which previously typically-developing children experience rapid, severe loss of acquired skills.
             </BodyText>
             <BodyText>
               Children may lose language, motor control, social awareness, and continence. In many cases, no cause is identified. This is one of the most underfunded areas in paediatric medicine globally.
@@ -780,7 +780,7 @@ const About = ({ navigate, openDonate }) => (
             { n:"02", ic:"💛", t:"Compassionate Support", d:"Every family is at the centre of everything we do. We listen before we lead, always." },
             { n:"03", ic:"📊", t:"Radical Transparency", d:"Every pound is accounted for publicly. We publish full allocation breakdowns without exception." },
             { n:"04", ic:"🌍", t:"Inclusive Community", d:"We welcome all families regardless of diagnosis, geography, background, or resources." },
-            { n:"05", ic:"🤝", t:"Clinical Collaboration", d:"We work alongside — never in opposition to — medical professionals and research institutions." },
+            { n:"05", ic:"🤝", t:"Clinical Collaboration", d:"We work alongside never in opposition to medical professionals and research institutions." },
             { n:"06", ic:"✨", t:"Relentless Hope", d:"We refuse to accept that this condition cannot be understood, treated, and ultimately prevented." },
           ].map(v => (
             <div key={v.n} className="card" style={{ padding: "26px 22px" }}>
@@ -937,15 +937,15 @@ const Stories = ({ openDonate }) => (
             <div style={{ width: 0, height: 0, borderTop: "13px solid transparent", borderBottom: "13px solid transparent", borderLeft: `20px solid ${T.white}`, marginLeft: 4 }} />
           </div>
           <div style={{ position: "absolute", zIndex: 1, bottom: 20, left: 24 }}>
-            <span className="fraunces" style={{ fontSize: "1.05rem", color: T.white, fontStyle: "italic" }}>Marcus's Story — A family's journey</span>
+            <span className="fraunces" style={{ fontSize: "1.05rem", color: T.white, fontStyle: "italic" }}>Marcus's Story : A family's journey</span>
           </div>
         </div>
         <p className="jakarta" style={{ fontSize: ".74rem", color: T.inkLight, textAlign: "center", marginBottom: 48 }}>5 min · With consent of the Clarke family</p>
 
         {[
-          { init:"HW", n:"Dr. Helena W.", d:"Mother of Marcus, 7 · London", q:"He was four years old and could recite entire books from memory. He loved dinosaurs and would name every species. Then over six weeks, the words stopped. He stopped recognising me. Nothing in my life had prepared me for watching your child disappear while they are still in front of you — not years in medicine, not my own losses. Beyond Disintegration gave us the first real framework we had to understand what was happening to our son." },
-          { init:"KB", n:"Kofi & Beatrice A.", d:"Parents of Amara, 9 · Birmingham", q:"We spent three years being told there was nothing wrong. That she would 'catch up.' That we were anxious parents. By the time we got a diagnosis, Amara had lost almost all of the skills she'd built. We lost years we will never get back. What I want every parent to hear is this: your instincts are right. Keep pushing. And you are not alone — because Beyond Disintegration exists." },
-          { init:"TM", n:"Theresa M., PhD", d:"Mother and scientist · Edinburgh", q:"Rory turned five and that was the last birthday that felt ordinary. He lost speech first. Then recognition. Then continence. I'm a researcher by profession — I know what critical evidence gaps look like. This condition has some of the worst I have ever encountered. Funding organisations like Beyond Disintegration is not just charitable — it is a medical emergency." },
+          { init:"HW", n:"Dr. Helena W.", d:"Mother of Marcus, 7 · London", q:"He was four years old and could recite entire books from memory. He loved dinosaurs and would name every species. Then over six weeks, the words stopped. He stopped recognising me. Nothing in my life had prepared me for watching your child disappear while they are still in front of you , not years in medicine, not my own losses. Beyond Disintegration gave us the first real framework we had to understand what was happening to our son." },
+          { init:"KB", n:"Kofi & Beatrice A.", d:"Parents of Amara, 9 · Birmingham", q:"We spent three years being told there was nothing wrong. That she would 'catch up.' That we were anxious parents. By the time we got a diagnosis, Amara had lost almost all of the skills she'd built. We lost years we will never get back. What I want every parent to hear is this: your instincts are right. Keep pushing. And you are not alone , because Beyond Disintegration exists." },
+          { init:"TM", n:"Theresa M., PhD", d:"Mother and scientist · Edinburgh", q:"Rory turned five and that was the last birthday that felt ordinary. He lost speech first. Then recognition. Then continence. I'm a researcher by profession , I know what critical evidence gaps look like. This condition has some of the worst I have ever encountered. Funding organisations like Beyond Disintegration is not just charitable , it is a medical emergency." },
         ].map(s => (
           <div key={s.n} className="card" style={{ padding: "32px 30px", marginBottom: 22, borderLeft: `4px solid ${T.green}` }}>
             <div className="fraunces" style={{ fontSize: "4rem", color: T.green, lineHeight: 1, opacity: .2, marginBottom: -14 }}>&ldquo;</div>
@@ -973,17 +973,17 @@ const Stories = ({ openDonate }) => (
 /* ─── QUOTES ─────────────────────────────────────────────────────── */
 const Quotes = () => (
   <div className="pi">
-    <PageHero eyebrow="Quotes & Reflections" title={<>Voices that <em style={{ fontStyle:"italic",color:T.amber }}>matter</em></>} subtitle="From parents, clinicians, and researchers — words that capture the reality of this crisis." />
+    <PageHero eyebrow="Quotes & Reflections" title={<>Voices that <em style={{ fontStyle:"italic",color:T.amber }}>matter</em></>} subtitle="From parents, clinicians, and researchers words that capture the reality of this crisis." />
     <section style={{ padding: "80px 0" }}>
       <div style={{ maxWidth: 1080, margin: "0 auto", padding: "0 28px" }}>
         <div className="two-col-quotes" style={{ columns: 2, columnGap: 24 }}>
           {[
             { q:"This is not a rare disease in the typical sense. It is a common tragedy rendered invisible by diagnostic fragmentation and inadequate clinical coding.", a:"Prof. Amelia Hartley", r:"Paediatric Neurologist, University of Oxford" },
-            { q:"I carried the guilt for years — that I had done something wrong, caused this. It took meeting other mothers to understand that this guilt is universal and unfounded.", a:"Anonymous Parent", r:"Member of our community" },
-            { q:"The NHS is full of extraordinary clinicians who want to help. The problem isn't will — it's knowledge. Funding Beyond Disintegration fills gaps government has failed to address.", a:"Dr. James Farrington", r:"Consultant Paediatrician, NHS" },
-            { q:"When my son was at his worst, I read research papers at 2am trying to understand. I hope future parents won't have to — because the knowledge will already exist.", a:"Michael R.", r:"Father and advocate" },
-            { q:"We have an ethical obligation to these children. They cannot advocate for themselves. Their parents are exhausted. It falls to us — as researchers and as a society — to prioritise this work.", a:"Dr. Fatima Osei", r:"Clinical Geneticist, GOSH" },
-            { q:"She still has moments — brief, brilliant moments — where you see who she was. Those moments are the reason we give everything to funding this research.", a:"Anonymous Parent", r:"Member of our community" },
+            { q:"I carried the guilt for years , that I had done something wrong, caused this. It took meeting other mothers to understand that this guilt is universal and unfounded.", a:"Anonymous Parent", r:"Member of our community" },
+            { q:"The NHS is full of extraordinary clinicians who want to help. The problem isn't will , it's knowledge. Funding Beyond Disintegration fills gaps government has failed to address.", a:"Dr. James Farrington", r:"Consultant Paediatrician, NHS" },
+            { q:"When my son was at his worst, I read research papers at 2am trying to understand. I hope future parents won't have to because the knowledge will already exist.", a:"Michael R.", r:"Father and advocate" },
+            { q:"We have an ethical obligation to these children. They cannot advocate for themselves. Their parents are exhausted. It falls to us , as researchers and as a society to prioritise this work.", a:"Dr. Fatima Osei", r:"Clinical Geneticist, GOSH" },
+            { q:"She still has moments brief, brilliant moments where you see who she was. Those moments are the reason we give everything to funding this research.", a:"Anonymous Parent", r:"Member of our community" },
           ].map((q, i) => (
             <blockquote key={i} className="card" style={{ breakInside: "avoid", padding: "28px 26px", marginBottom: 20, borderLeft: `4px solid ${i%2===0?T.red:T.green}` }}>
               <div className="fraunces" style={{ fontSize: "2.5rem", color: i%2===0?T.red:T.green, lineHeight: 1, opacity: .25, marginBottom: -10 }}>&ldquo;</div>
@@ -1003,7 +1003,7 @@ const Quotes = () => (
 /* ─── INVOLVE ────────────────────────────────────────────────────── */
 const Involve = ({ navigate, openDonate }) => (
   <div className="pi">
-    <PageHero eyebrow="Get Involved" title={<>Join the <em style={{ fontStyle:"italic",color:T.amber }}>movement</em></>} subtitle="Many ways to support our work — whatever your time, skills, or resources allow." />
+    <PageHero eyebrow="Get Involved" title={<>Join the <em style={{ fontStyle:"italic",color:T.amber }}>movement</em></>} subtitle="Many ways to support our work whatever your time, skills, or resources allow." />
     <section style={{ padding: "80px 0" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 28px" }}>
         <div className="col-3" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 20 }}>
@@ -1012,7 +1012,7 @@ const Involve = ({ navigate, openDonate }) => (
             { ic:"🤝", t:"Volunteer", d:"We welcome volunteers in communications, fundraising, community support, legal, and administration." },
             { ic:"🏢", t:"Corporate Partnership", d:"Partner through payroll giving, cause-related marketing, employee fundraising, or sponsorship of specific research projects." },
             { ic:"📢", t:"Raise Awareness", d:"Share our mission, write to your MP, or speak to your employer. Visibility is vital for underrecognised conditions." },
-            { ic:"💰", t:"Fundraise for Us", d:"Set up a fundraising challenge — a marathon, sponsored event, or birthday fundraiser. Every penny goes to research and family support." },
+            { ic:"💰", t:"Fundraise for Us", d:"Set up a fundraising challenge a marathon, sponsored event, or birthday fundraiser. Every penny goes to research and family support." },
             { ic:"⚖️", t:"Pro Bono Support", d:"We welcome pro bono support from legal, accountancy, HR, and communications professionals who share our values." },
           ].map(c => (
             <div key={c.t} className="card" style={{ padding: "28px 24px" }}>
@@ -1030,7 +1030,7 @@ const Involve = ({ navigate, openDonate }) => (
       </div>
     </section>
     <div style={{ padding: "60px 0", textAlign: "center", background: T.panel, borderTop: `1.5px solid ${T.border}` }}>
-      <Headline size="md" style={{ textAlign: "center", marginBottom: 10 }}>Or simply — <em style={{ fontStyle:"italic",color:T.red }}>donate.</em></Headline>
+      <Headline size="md" style={{ textAlign: "center", marginBottom: 10 }}>Or simply <em style={{ fontStyle:"italic",color:T.red }}>donate.</em></Headline>
       <BodyText style={{ marginBottom: 24, textAlign: "center" }}>Every contribution funds research that will change children's lives.</BodyText>
       <BtnRed onClick={openDonate}>Donate Now</BtnRed>
     </div>
@@ -1081,7 +1081,7 @@ const Donate = () => {
               </div>
               <div style={{ display: "flex", alignItems: "center", gap: 9, marginBottom: 22, cursor: "pointer" }} onClick={() => sg(g=>!g)}>
                 <input type="checkbox" checked={gift} readOnly />
-                <span className="jakarta" style={{ fontSize: ".84rem", color: T.inkMid }}>Add Gift Aid — <strong style={{ color: T.green }}>+25% at no extra cost</strong></span>
+                <span className="jakarta" style={{ fontSize: ".84rem", color: T.inkMid }}>Add Gift Aid <strong style={{ color: T.green }}>+25% at no extra cost</strong></span>
               </div>
               {fa > 0 && (
                 <div style={{ background: T.greenPale, border: `1.5px solid ${T.green}`, borderRadius: 6, padding: "14px 16px", marginBottom: 22 }}>
@@ -1153,7 +1153,7 @@ const Community = ({ showToast }) => {
             <div>
               <Eyebrow>Our Community</Eyebrow>
               <Headline size="md">A safe space for <em style={{ fontStyle:"italic",color:T.green }}>every family</em></Headline>
-              <BodyText style={{ marginBottom: 24 }}>A private, moderated community for families affected by childhood developmental regression — whether diagnosed or still seeking answers. Led by lived experience.</BodyText>
+              <BodyText style={{ marginBottom: 24 }}>A private, moderated community for families affected by childhood developmental regression whether diagnosed or still seeking answers. Led by lived experience.</BodyText>
               <div style={{ marginBottom: 28 }}>
                 {["Peer support from families who truly understand","Moderated groups with trained facilitators","Research summaries in accessible language","Quarterly Q&As with clinical advisors","Monthly newsletter with research updates","Regional meet-up coordination"].map(i => (
                   <div key={i} style={{ display: "flex", gap: 11, padding: "10px 0", borderBottom: `1.5px solid ${T.borderLight}`, fontSize: ".88rem", color: T.inkLight }}>
@@ -1221,7 +1221,7 @@ const Contact = ({ showToast }) => {
   };
   return (
     <div className="pi">
-      <PageHero eyebrow="Contact" title={<>Get in <em style={{ fontStyle:"italic",color:T.amber }}>touch</em></>} subtitle="Whether you're a family, researcher, journalist, or supporter — we're here." />
+      <PageHero eyebrow="Contact" title={<>Get in <em style={{ fontStyle:"italic",color:T.amber }}>touch</em></>} subtitle="Whether you're a family, researcher, journalist, or supporter , we're here." />
       <section style={{ padding: "80px 0" }}>
         <div style={{ maxWidth: 1080, margin: "0 auto", padding: "0 28px" }}>
           <div className="col-2" style={{ display: "grid", gridTemplateColumns: ".72fr 1.28fr", gap: 48, alignItems: "start" }}>
