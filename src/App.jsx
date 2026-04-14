@@ -1392,7 +1392,7 @@ const Footer = ({ navigate, openDonate }) => (
         ))}
       </div>      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 14 }}>
         <div className="jakarta" style={{ fontSize: ".7rem", color: "#ffffff", lineHeight: 1.7 }}>
-          © 2025 Beyond Disintegration. All rights reserved.<br />
+          © 2026 Beyond Disintegration. All rights reserved.<br />
           Charity registration pending · Charity Commission for England & Wales · WCAG 2.1 AA
         </div>
         <button onClick={openDonate}
