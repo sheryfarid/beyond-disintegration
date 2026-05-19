@@ -263,7 +263,7 @@ const Home = ({ navigate }) => (
           {[
             { n: 100000, pre: "1 in ", suf: "", l: "Children estimated affected" },
             { n: 70,     pre: "", suf: "%", l: "Cases remain poorly understood" },
-            { n: 2,      pre: "~", suf: " per 100k", l: "Historical CDD prevalence" },
+            { n: 2,      pre: "", suf: " per 100k", l: "Historical CDD prevalence" },
             { n: 0,      pre: "", suf: "", l: "Urgent research needed" },
           ].map((s, i) => (
             <div key={i} className={`py-8 px-7 text-center ${i < 3 ? "border-r border-white/8" : ""}`}>
